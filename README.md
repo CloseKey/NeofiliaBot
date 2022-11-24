@@ -25,13 +25,14 @@ Below how the json should be built:
 **questioncsvpath, couponcsvpath, barcsvpath**
 > This is the CSV Path that contains all your data
 
-#Csv for questions#
+#Csv for questions
 
-Id	Description	ImagePath	Option1	Option2	Option3	Option4	Answer	Category	Difficulty
+Id,Description,ImagePath,Option1,Option2,Option3,Option4,Answer,Category,Difficulty
+....
 
 
-#Csv for coupon#
+#Csv for coupon
 TBU
-#Csv for Bar#
+#Csv for Bar
 TBU
 
