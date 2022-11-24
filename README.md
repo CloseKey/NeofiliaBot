@@ -17,10 +17,21 @@ Below how the json should be built:
 }
 ```
 **prefix**
-> The prefix you want to use for issue a command
+> The prefix you want to use to issue a command
 
 **token**
 > Your secret discord bot token
 
 **questioncsvpath, couponcsvpath, barcsvpath**
 > This is the CSV Path that contains all your data
+
+#Csv for questions#
+
+Id	Description	ImagePath	Option1	Option2	Option3	Option4	Answer	Category	Difficulty
+
+
+#Csv for coupon#
+TBU
+#Csv for Bar#
+TBU
+
