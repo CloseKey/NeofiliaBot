@@ -1,6 +1,6 @@
 # Welcome to Neofilia Bot
 
-This is an evolving discord bot that would feature Quizzes and much more
+This is an evolving discord bot that will feature Quizzes and much more
 
 # How to use
 
@@ -18,7 +18,9 @@ Below how the json should be built:
 ```
 **prefix**
 > The prefix you want to use for issue a command
+
 **token**
 > Your secret discord bot token
+
 **questioncsvpath, couponcsvpath, barcsvpath**
 > This is the CSV Path that contains all your data
