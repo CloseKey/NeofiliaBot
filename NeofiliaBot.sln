@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neofilia.BOT", "NeofiliaBOT\Neofilia.BOT.csproj", "{3E9FA7B1-6E94-4264-A7A1-41FEB045FB51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NeofiliaBOT", "NeofiliaBOT", "{DE26DB4C-9817-496D-9717-E2A628E3E680}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NeofiliaDAL", "NeofiliaDAL", "{04E1FEBA-C95A-40ED-B377-5DB534C9151E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NeofiliaDALMigrations", "NeofiliaDALMigrations", "{599D6966-ED6B-4B3E-9FA7-9ED8BF5FB151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neofilia.DAL", "NeofiliaDAL\Neofilia.DAL.csproj", "{668D941B-DA28-487A-8D08-6C8CACB8E451}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neofilia.DAL.Migrations", "NeofiliaDALMigrations\Neofilia.DAL.Migrations.csproj", "{BD4082C7-ADAA-458B-B8A4-0BDD8BB4315C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9FA7B1-6E94-4264-A7A1-41FEB045FB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9FA7B1-6E94-4264-A7A1-41FEB045FB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9FA7B1-6E94-4264-A7A1-41FEB045FB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9FA7B1-6E94-4264-A7A1-41FEB045FB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{668D941B-DA28-487A-8D08-6C8CACB8E451}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{668D941B-DA28-487A-8D08-6C8CACB8E451}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{668D941B-DA28-487A-8D08-6C8CACB8E451}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{668D941B-DA28-487A-8D08-6C8CACB8E451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4082C7-ADAA-458B-B8A4-0BDD8BB4315C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4082C7-ADAA-458B-B8A4-0BDD8BB4315C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4082C7-ADAA-458B-B8A4-0BDD8BB4315C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4082C7-ADAA-458B-B8A4-0BDD8BB4315C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E9FA7B1-6E94-4264-A7A1-41FEB045FB51} = {DE26DB4C-9817-496D-9717-E2A628E3E680}
+		{668D941B-DA28-487A-8D08-6C8CACB8E451} = {04E1FEBA-C95A-40ED-B377-5DB534C9151E}
+		{BD4082C7-ADAA-458B-B8A4-0BDD8BB4315C} = {599D6966-ED6B-4B3E-9FA7-9ED8BF5FB151}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4C6A13DC-8E07-43F8-8F54-0170F8606B6C}
+	EndGlobalSection
+EndGlobal
